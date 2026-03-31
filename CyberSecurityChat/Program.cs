@@ -1,10 +1,22 @@
-﻿namespace CyberSecurityChat
+﻿using System;
+
+namespace CyberSecurityChat
 {
-    internal class Program
+    class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Console.Title = "Cybersecurity Awareness Bot";
+
+            AsciiArt.DisplayLogo();
+
+            VoiceGreeting.PlayGreeting();
+
+            Console.Write("\nPlease enter your name: ");
+            string userName = Console.ReadLine();
+
+            Chatbot bot = new Chatbot(userName);
+            bot.StartChat();
         }
     }
 }
