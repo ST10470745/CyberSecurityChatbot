@@ -1,6 +1,6 @@
 ﻿using System.Media;
 
-namespace CyberSecurityChatbot
+namespace CyberSecurityChat
 {
     class VoiceGreeting
     {

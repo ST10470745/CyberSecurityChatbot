@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CyberSecurityChatbot
+namespace CyberSecurityChat
 {
     class AsciiArt
     {
