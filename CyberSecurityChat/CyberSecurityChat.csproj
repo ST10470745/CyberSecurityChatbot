@@ -12,6 +12,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Include=".github\workflows\dotnet.yml" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="System.Windows.Extensions" Version="9.0.6" />
   </ItemGroup>
 
